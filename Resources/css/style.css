@@ -16,3 +16,54 @@ a {
 p {
     text-align: center;
 }
+video {
+    border: none;
+}
+.video {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300px;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: grey;
+    font-weight: normal;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    padding: 10px;
+}
+
+.small {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300px;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    color: gray;
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
